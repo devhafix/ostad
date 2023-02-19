@@ -13,7 +13,8 @@ $fruits = array("apple", "banana", "kiwi", "orange", "grape");
 $sorted_fruits = sort_strings_by_length($fruits);
 print_r($sorted_fruits);
 
-
+echo PHP_EOL;
+echo PHP_EOL;
 
 // 2. Write a PHP function to concatenate two strings, but with the second string starting from the end of the first string.
 function concatenate_strings($string1, $string2) {
@@ -26,6 +27,9 @@ $str1 = "Hello, ";
 $str2 = "world!";
 $result = concatenate_strings($str1, $str2);
 echo $result;
+
+echo PHP_EOL;
+echo PHP_EOL;
 
 // 3. Write a PHP function to remove the first and last element from an array and return the remaining elements as a new array.
 function remove_first_last($array) {
@@ -41,6 +45,9 @@ function remove_first_last($array) {
 $input = array(1, 2, 3, 4, 5);
 $output = remove_first_last($input);
 print_r($output);
+
+echo PHP_EOL;
+echo PHP_EOL;
 
 // 4. Write a PHP function to check if a string contains only letters and whitespace.
 function contains_only_letters_and_whitespace($str) {
@@ -61,6 +68,9 @@ $result1 = contains_only_letters_and_whitespace($str1);
 $result2 = contains_only_letters_and_whitespace($str2);
 echo $result1 ? "String 1 contains only letters and whitespace\n" : "String 1 contains non-letter characters\n";
 echo $result2 ? "String 2 contains only letters and whitespace\n" : "String 2 contains non-letter characters\n";
+
+echo PHP_EOL;
+echo PHP_EOL;
 
 // 5. Write a PHP function to find the second largest number in an array of numbers.
 function find_second_largest($numbers) {
