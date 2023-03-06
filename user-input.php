@@ -4,7 +4,7 @@
     <title>User Input Form</title>
   </head>
   <body>
-    <form>
+    <form method="post" action="PersonClass.php">
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" placeholder="Enter your name" required>
       
