@@ -4,7 +4,7 @@
   <head>
     <title>User Input Form</title>
   </head>
-  <body>
+  <body class="p-4">
 <table>
     <thead>
         <tr>
