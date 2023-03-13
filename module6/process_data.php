@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     // Save user data to CSV file
     $csv_file = fopen('users.csv', 'a');
-    fputcsv($csv_file, [$name, $email, $unique_filename]);
+    fputcsv($csv_file, [$name, $email, $unique_filename, $password]);
     fclose($csv_file);
 
     // Set session and cookie
