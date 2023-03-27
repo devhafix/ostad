@@ -10,7 +10,7 @@ class Database {
         $this->host = '127.0.0.1:8889';
         $this->user = 'root';
         $this->password = '';
-        $this->dbname = 'assignment8';
+        $this->dbname = 'module8';
     }
 
     public function connect() {
