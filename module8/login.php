@@ -25,7 +25,7 @@
                         <label for="password">Password:</label>
                         <input type="password" class="form-control" id="password" name="password" required>
                     </div>
-                    <button type="submit" class="btn btn-primary">Login</button> Do no have an account? <a href="registration.php">Register</a> here.
+                    <button type="submit" class="btn btn-primary">Login</button> Don't have an account? <a href="registration.php">Register</a> here.
                 </form>
             </div>
         </div>
